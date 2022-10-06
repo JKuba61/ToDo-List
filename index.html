@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/245431f389.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ToDo List/main.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="head">
+            <h1 class="head-header">todo list</h1>
+            <input type="text" class="input-task" placeholder="Type in your new task...">
+            <button class="btn-add">add</button>
+            <p class="error">Cannot add empty task!</p>
+        </div>
+        <div class="body">
+            <h2 class="body-header">List of tasks:</h2>
+            <p class="error-info">There are no tasks to display</p>
+            <ul class="task-list">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="popup">
+        <h3 class="popup-header">Edit task:</h3>
+        <div class="popup-body">
+            <p class="popup-error">This field cannot be empty!</p>
+            <input type="text" class="popup-input" placeholder="Type in your task...">
+            <button class="popup-btn accept">accept</button>
+            <button class="popup-btn cancel">cancel</button>
+        </div>
+    </div>
+    <script src="/ToDo List/script.js"></script>
+</body>
+
+</html>
